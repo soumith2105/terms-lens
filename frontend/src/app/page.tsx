@@ -117,7 +117,7 @@ export default function Home() {
 					</div>
 				</div>
 			) : (
-				<div className="flex w-full pt-[80px] h-screen overflow-hidden">
+				<div className="flex w-full pt-[80px] h-screen overflow-hidden flex-row-reverse">
 					{/* Left: Chat Interface */}
 					<div className="w-[40%] p-6 bg-white border-r border-gray-300 overflow-y-auto animate-slideInLeft h-full relative">
 						<h2 className="text-xl font-semibold mb-4">
